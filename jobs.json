@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "type": "joboffer",
+    "subtype": "manuel",
+    "title": "plongeur la rochelle",
+    "description": "",
+    "offerlink": "https://www.leboncoin.fr/offres_d_emploi/1614290002.htm/",
+    "offerplace": "la rochelle",
+    "agencename": "r.a.s intérim",
+    "agencelink": "https://www.ras-interim.fr/la-rochelle/",
+    "phone": "0516590210",
+    "progress": "appelé le 8 juillet 2019",
+    "active": true
+  },
+  {
+    "id": 1,
+    "type": "enterprise",
+    "subtype": "informatique",
+    "title": "trecobois",
+    "description": "dans french coffee shop",
+    "offerlink": "",
+    "offerplace": "",
+    "agencename": "maisons trecobois la rochelle",
+    "agencelink": "https://www.trecobois.fr/agences-trecobois/nouvelle-aquitaine/charente-maritime/la-rochelle/",
+    "phone": "0800 053 333",
+    "progress": "branche de trecobat",
+    "active": true
+  }
+]
