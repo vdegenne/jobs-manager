@@ -1,8 +1,34 @@
 {
   "dependencies": {
-    "express": "^4.17.1",
+    "@material/mwc-button": "^0.9.0",
+    "@material/mwc-checkbox": "^0.9.0",
+    "@material/mwc-dialog": "^0.9.0",
+    "@material/mwc-formfield": "^0.9.0",
+    "@material/mwc-icon": "^0.9.0",
+    "@material/mwc-snackbar": "^0.9.0",
+    "@material/mwc-tab-bar": "^0.9.0",
+    "@material/mwc-textarea": "^0.9.0",
+    "@material/mwc-textfield": "^0.9.0",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-cash": "^2.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-static-cache": "^5.1.2",
     "lit-element": "^2.2.1",
     "prompts": "^2.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  }
+    "rollup-plugin-cleanup": "^3.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "serve": "node serve",
+    "serve:watch": "nodemon --watch serve.js serve.js",
+    "watch": "rollup -cw",
+    "dev": "npm run serve:watch & npm run watch",
+    "prod": "npm run serve"
+  },
+  "devDependencies": {}
 }

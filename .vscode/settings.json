@@ -1,0 +1,6 @@
+{
+  "editor.tokenColorCustomizations": {
+    "comments": "#00ff2a"
+  },
+  "prettier.printWidth": 1000
+}
